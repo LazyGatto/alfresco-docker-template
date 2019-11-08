@@ -1,12 +1,12 @@
-FROM alfresco/alfresco-content-repository-community:6.0.7-ga
+FROM alfresco/alfresco-content-repository-community:6.1.2-ga
 
 # Add services configuration to alfresco-global.properties
 RUN echo -e '\n\
-alfresco.host=localhost\n\
+alfresco.host=ecm.egorod.info\n\
 alfresco.port=443\n\
 alfresco.protocol=https\n\
 \n\
-share.host=localhost\n\
+share.host=ecm.egorod.info\n\
 share.port=443\n\
 share.protocol=https\n\
 \n\
